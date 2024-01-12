@@ -1,6 +1,6 @@
 {
   "name": "portfolio---react",
-  "homepage": "https://stalingeorg.github.io/portfolio",
+  "homepage": "https://stalingeorg.github.io/about",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postdeploy": "rm -rf build"
   },
   "eslintConfig": {
     "extends": [
